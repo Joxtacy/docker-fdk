@@ -11,7 +11,7 @@ RUN apk add --no-cache --virtual .gyp \
 
 USER node
 
-RUN npm install https://dl.freshdev.io/cli/fdk-6.11.0.tgz -g
+RUN npm install https://dl.freshdev.io/cli/fdk.tgz -g
 
 USER root
 
